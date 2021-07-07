@@ -1,0 +1,554 @@
+.App {
+background-repeat: no-repeat;
+z-index:-1;
+width: 566px;
+height: 357px;
+overflow: hidden;
+background-color: white;
+}
+
+
+.AppHeader {
+color: black;
+font-size: 20px;
+position:absolute;
+left: 32px;
+bottom: 520px;
+font-weight: bold;
+background: #F4A460;
+height: 125px;
+width: 1316px;
+opacity: 1;
+}
+
+.Escudo {
+display:scroll;
+align:left; 
+position:absolute;
+left:0px;
+top: 0px;
+}
+
+.EscudoDos {
+display:scroll;
+align:right; 
+position:absolute;
+left:1170px;
+top: 40px;
+width: 120px;
+height: 40px;
+}
+
+.Adicional {
+display:scroll;
+align:left; 
+position:absolute;
+left:190px;
+top: 260px;
+border: 1px solid black;
+height: 370px;
+width: 1150px;
+}
+
+.Titulo {
+display:scroll;
+position:absolute;
+right: 122vh;
+bottom:50px;
+}
+
+.TituloDos {
+display:scroll;
+position:absolute;
+right: 75vh;
+color: black;
+font-size: 15px;
+bottom:35px;
+right:360px;
+}
+
+.AppPrincipal {
+background-repeat: no-repeat;
+z-index:-1;
+height: 145px;
+width: 1366px;
+height: 657px;
+overflow: hidden;
+background-color: white;
+}
+
+
+.AppPrincipal-link {
+color: #61dafb;
+}
+
+nav ul {
+position: absolute;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #F4A460;
+left: 32px;
+top: 137px;
+width: 140px;
+height: 520px;
+}
+
+nav {
+float: left;
+}
+
+ul {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+li {	
+float: left;	
+color: white;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+}	
+
+nav ul a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+background-color: #aaa;
+}
+
+.Presentacion {
+position:absolute;
+left: 180px;
+bottom: 460px;
+color: black;
+font-size: 25px;
+font-weight: bold;
+text-align: left;
+height: 180px;
+width: 1066px;
+opacity: 0.8;
+}
+
+.texto{
+position:absolute;
+bottom: 0px;
+}
+
+.Intro{
+position: absolute;	
+top: 190px;
+left: 180px;
+}
+
+.CrearAdmin {
+position:absolute;
+left: 1090px;
+bottom: 130px;
+}
+
+.BCrear {
+position:absolute;
+left: 3px;
+bottom: 2px;
+height: 45px;
+width: 200px;
+border: none;
+background-color: #000080;
+color: white;
+font-size: 20px;
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BCrear:hover {opacity: 1}
+
+.BCrear:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.InputCrear {
+box-sizing: border-box;
+border: 2px solid blue; 
+border-radius: 4px;
+width: 180px;
+height: 40px;  
+position:absolute;
+left: 5px;
+bottom: 60px;
+background-color: #BFBFFF;
+text-align: center; 
+}
+
+.InputCrear::-webkit-input-placeholder {
+font-size: 15px;
+color: black;
+}
+
+.Alarma {
+position:absolute;
+left: 340px;
+bottom: 220px;
+}
+
+.InputAlarma {
+box-sizing: border-box;
+border: none; 
+width: 180px;
+height: 40px;
+background-color: #FFFFFF;  
+color: red;
+text-align: center; 
+font-size: 15px;
+font-weight: bold;
+position: relative;
+top: 310px;
+right: 5px;
+z-index: 9;
+}
+
+.EliminarAdmin {
+position:absolute;
+left: 1100px;
+bottom: 300px;
+}
+
+.BEliminar {
+border: 1px #BFBFFF;
+background-color: #BFBFFF;
+}
+
+.InputEliminar {
+border: transparent; 
+width: 0px;
+height:0px;  
+position:absolute;
+left: 0px;
+bottom: 0px;
+background-color: transparent;
+display:"none";
+}
+
+.InputEliminar::-webkit-input-placeholder {
+color: transparent;
+display:"none";
+}
+
+.BPanel {
+color: white;
+width: 75pt;
+height: 15pt;
+margin-top: 2px;
+background: #000080;
+border: none; 
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BPanel:hover {opacity: 1}
+
+.BPanel:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.BPanelDos {
+color: white;
+width: 75pt;
+height: 15pt;
+margin-left: 0px;
+background: #000080;
+border: none; 
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BPanelDos:hover {opacity: 1}
+
+.BPanelDos:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.FechaConsulta {
+position:absolute; 
+bottom:285px; 
+right:56px;
+}
+
+.BAlertas {
+position:absolute;
+left: 325px;
+bottom: 53px;
+height: 45px;
+width: 200px;
+border: none;
+background-color: #000080;
+color: white;
+font-size: 20px;
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BAlertas:hover {opacity: 1}
+
+.BAlertas:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.BVolver{
+position:relative;
+bottom: 50px;
+left: 500px;
+height: 45px;
+width: 150px;
+border: none;
+background-color: #000080;
+color: white;
+font-size: 20px;
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BVolver:hover {opacity: 1}
+
+.BVolver:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.FechaConsultaBorde {
+width: 180px;
+height: 40px; 
+box-sizing: border-box;
+border: 2px solid blue;
+border-radius: 4px;
+background-color: #BFBFFF;
+text-align: center; 
+}
+
+.FechaConsultaBorde::-webkit-input-placeholder {
+font-size: 17px;
+color: black;
+}
+
+.TituloFecha {
+color: black;
+}
+
+.TextoCrear {
+position: relative;
+bottom: 100px; 
+left: 5px;
+}
+
+.PanelHistorial {
+position:absolute;
+bottom:310px; 
+left:400px;
+}
+
+.TablaPanelAulas {
+display: block;
+background-color: #e6e6fa;
+width: 380px;
+height: 280px;
+overflow-x: auto;
+overflow-y: auto; 
+position:relative;
+top : 31vh;
+left: 45vh;
+box-sizing: border-box;
+border: none;
+border-radius: 2px;
+background-color: #dcdcdc;
+}
+
+.FilaPanelAulas{
+display: flex;
+}
+
+.TablaHistorial {
+position:relative;
+top: 45vh;
+right: 90px;
+overflow-x: auto;
+overflow-y: auto; 
+background-color: white;
+box-sizing: border-box;
+border: 1px solid grey;
+}
+
+.CabeceraAulas {
+color: black;
+position:relative;
+top: 50vh;
+right: 90px;
+border: 1px solid transparent;
+}
+
+.CabeceraAulasUno {
+font-size:19px;
+text-align:center;
+background-color: #C0C0C0;
+border: 1px solid transparent;
+margin-bottom: 10px;
+}
+
+.CabeceraAulasDos {	
+font-size:16px;
+}
+
+.HistorialAula {
+background-color: #ADD8E6;
+text-align: center;
+}
+
+.Ale{
+ position:absolute;
+ left: 250px;
+ width: 600px;
+}
+
+.TablaAlertas {
+background-color: white;
+position:relative;
+top: 25vh;
+left: 250px;
+overflow-y: auto;
+}
+
+.CabeceraAlertas {
+color: black;
+position:relative;
+top: 28vh;
+left: 250px;
+border: 1px solid transparent;
+}
+
+.CabeceraAlertasUno {
+font-size:19px;
+text-align:center;
+background-color: #C0C0C0;
+border: 1px solid transparent;
+margin-bottom: 10px;
+}
+
+.CabeceraAlertasDos {
+font-size:16px;
+}
+
+.BVolverDos{
+position:relative;
+bottom: 50px;
+left: 350px;
+height: 45px;
+width: 150px;
+border: none;
+background-color: #000080;
+color: white;
+font-size: 20px;
+text-align: center;
+opacity: 0.7;
+transition: 0.3s;
+}
+
+.BVolverDos:hover {opacity: 1}
+
+.BVolverDos:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.TituloPanel {
+color: black;
+text-align:left;
+font-size: 20px;
+font-weight: bold;
+display: block;
+position:relative;
+top : 33vh;
+left: 45vh;
+}
+
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+.active, .accordion:hover {
+background-color: #ccc; 
+}
+
+.panel {
+padding: 0 18px;
+display: none;
+background-color: white;
+overflow: hidden;
+}
+
+.ConAlertas{
+position:relative;
+top: 50px;
+right: 160px;
+width: 500px;
+height: 220px;
+}
+
+.SinAlertas{
+position:relative;
+top: 50px;
+right: 160px;
+width: 500px;
+height: 220px;
+}
+
+.Home{	
+width: 50px;
+height: 50px;
+}
+
+.Control{
+width: 50px;
+height: 50px;
+}
+
+.ControlDos{
+width: 40px;
+height: 40px;
+}
+
+.TextoAppVisual {
+position: absolute;
+top: 160px;
+left: 200px;
+}
