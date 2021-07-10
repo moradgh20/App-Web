@@ -1,4 +1,4 @@
 # App-Web
 
-Directorio con todos los componentes de la aplicación web desarrollada.
+Repositorio con todos los componentes de la aplicación web desarrollada.
 
