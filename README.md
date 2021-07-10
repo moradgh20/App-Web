@@ -1,4 +1,4 @@
 # App-Web
 
-Repositorio con la aplicación web desarrollada. La carpeta src contiene todos los componentes implementados.
+Repositorio con la aplicación web desarrollada. La carpeta components en el directorio src contiene todos los componentes implementados.
 
